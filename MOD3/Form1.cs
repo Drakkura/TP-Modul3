@@ -26,5 +26,20 @@ namespace MOD3
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.textBox2.Text = "Halo " + this.textBox1.Text;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
